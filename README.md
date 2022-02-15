@@ -1,12 +1,15 @@
 # Quectel-BG95 driver
 
-## Initialization
+## CONNECT TO GSM
 
-### Connect to GSM
+### Test UART connection
 
     AT
 
     OK
+    
+### jojoj
+
     ATI
 
     Quectel
@@ -14,15 +17,27 @@
     Revision: BG95M3LAR02A03
 
     OK
+
+### jojoj
+
     ATV1
 
     OK
+
+### jojoj
+    
     ATE1
 
     OK
+    
+### jojoj
+    
     AT+CMEE=2
 
     OK
+    
+### jojoj
+    
     AT+CPIN=8417
 
     OK
@@ -30,6 +45,9 @@
     +CPIN: READY
 
     +QUSIM: 1
+    
+### jojoj
+    
     AT+CREG?
 
     +CREG: 0,2
@@ -37,13 +55,16 @@
     OK
 
     +QIND: SMS DONE
+    
+### jojoj
+    
     AT+COPS?
 
     +COPS: 0
 
     OK
 
-### Connect to LTE (mobile data)
+### CONNECT TO LTE (mobile data)
 
     AT+CSQ
 
