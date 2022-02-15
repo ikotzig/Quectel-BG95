@@ -1,4 +1,4 @@
-# Quectel-BG95 driver
+# Quectel-BG95 D3velopment Script
 
 ## CONNECT TO GSM
 
