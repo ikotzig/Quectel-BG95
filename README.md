@@ -5,63 +5,52 @@
 ### Test UART connection
 
     AT
-
     OK
     
 ### jojoj
 
     ATI
-
     Quectel
     BG95-M3
     Revision: BG95M3LAR02A03
-
     OK
 
 ### jojoj
 
     ATV1
-
     OK
 
 ### jojoj
     
     ATE1
-
     OK
     
 ### jojoj
     
     AT+CMEE=2
-
     OK
     
 ### jojoj
     
     AT+CPIN=8417
-
     OK
 
     +CPIN: READY
-
     +QUSIM: 1
     
-### jojoj
+### Check if connected
+
+Need to keep checking, until modem returns +CREG: 0,1
     
     AT+CREG?
-
     +CREG: 0,2
-
     OK
-
     +QIND: SMS DONE
     
 ### jojoj
     
     AT+COPS?
-
     +COPS: 0
-
     OK
 
 ### CONNECT TO LTE (mobile data)
