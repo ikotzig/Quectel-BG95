@@ -1,5 +1,9 @@
 # Quectel-BG95 driver
 
+## Initialization
+
+### Connect to GSM
+
     AT
 
     OK
@@ -38,6 +42,9 @@
     +COPS: 0
 
     OK
+
+### Connect to LTE (mobile data)
+
     AT+CSQ
 
     +CSQ: 99,99
@@ -60,6 +67,9 @@
     +QIACT: 1,1,1,"100.87.124.107"
 
     OK
+    
+###     
+    
     AT+COPS?
 
     +COPS: 0,0,"TELEKOM SK",0
@@ -152,3 +162,5 @@
     AT+QMTPUBEX=0,1,1,0,"main_topic","Presure: 3.3Bar"
 
     OK
+    
+    
